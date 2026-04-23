@@ -3,4 +3,4 @@ flask-cors
 requests
 apify-client
 scikit-learn
-tensorflow
+tensorflow-cpu==2.15.0
