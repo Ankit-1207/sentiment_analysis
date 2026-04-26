@@ -59,7 +59,7 @@ const App = () => {
     setPointer(0);
 
     try {
-      const res = await axios.post('http://127.0.0.1:5000/api/analyze', {
+      const res = await axios.post('https://sentiment-analysis-eyfe.onrender.com/api/analyze', {
         apifyToken, url
       });
       // Set the incoming comments buffer and kick off streaming
